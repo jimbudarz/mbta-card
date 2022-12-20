@@ -45,7 +45,7 @@ example `ui-lovelace.yaml` card:
 ##### entity
 > (string) (Required) the entity name of the sensor
 ##### offset_minutes
-> (int) (Required) offsets the minimum minutes remaining before arrival
+> (int) (Required) lower limit on the time (in minutes) until departure, to return only feasible results
 ##### limit
 > (int) (Required) the maximum number of predictions to display
 
